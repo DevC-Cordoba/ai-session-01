@@ -1,0 +1,15 @@
+name: ai-session-01
+channels:
+  - conda-forge
+  - damianavila82
+dependencies:
+  - python==3.6
+  - ipython
+  - jupyter
+  - numpy
+  - matplotlib
+  - seaborn
+  - pandas
+  - scikit-learn
+  - rise
+  - pillow
