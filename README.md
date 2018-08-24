@@ -1,9 +1,10 @@
-# ai-session-01
+# ai-session-01 [Readme v0.1]
 Repositorio del material utilizado en el evento AI Session 01: Machine Learning
 
-## Lista TODO 
+## TODO List 
 
 Aceptamos colaboraciones! o denme más tiempo. Cualquier comentario es bienvenido.
+- [ ] Mejorar el Readme.md
 - [ ] Instructivo para windows
 - [ ] Explicar sobre Anaconda
 - [ ] Explicar sobre environments en python
@@ -37,41 +38,37 @@ $ source activate ai-session-01
 ```
 Deberían ver en los comandos delante de todo lo siguiente -> (ai-session-01) 
 
-## Ejecutando la presentación
+## Ejecutando la presentación (Jupyter Notebook)
 
-Teniendo en cuenta que están en la carpeta "~/Documents/ai-session-01" ejecuten el siguiente comando
+Para poder ejecutar la presentación en Jupyter Notebook deberan tener el environment activado, si no ven lo siguiente en su terminal (ai-session-01) entonces ejecuten 
+```sh
+$ source activate ai-session-01
+```
+Luego, teniendo en cuenta que están en la carpeta "~/Documents/ai-session-01" ejecuten el siguiente comando
 ```sh
 $ jupyter notebook
 ```
 Esto les abrirá un browser con la siguiente url http://localhost:8888/tree
+Para desactivar el environment ejecuten
+```sh
+$ source deactivate ai-session-01
+```
+
+## Utilizando Jupyter Notebook
+
+Aca hay un instructivo https://live.osgeo.org/es/quickstart/jupyter_quickstart.html
+Les recomiendo ir ejecutando celda por celda, Jupyter Notebook tiene un intérprete entonces se van cargando las variables a medida que vas ejecutando el código
 
 ## Built With
 
-* [Jupyter Notebook](http://jupyter.org/) - Presentación
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+* [Pandas](https://pandas.pydata.org/)
+* [Matplotlib](https://matplotlib.org/)
+* [Searborn](https://seaborn.pydata.org/)
+* [Numpy](http://www.numpy.org/)
+* [Scikit-learn](http://scikit-learn.org)
 
-## Contributing
+## Autores
 
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
-## Authors
-
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
-
+* **Joaquín Barotto** - Speaker - [JoacoIB](https://github.com/JoacoIB)
+* **Daniel Bridera** - Speaker - [danielstaff](https://github.com/danielstaff)
+* **Emanuel Lupi** - Speaker - [WaVEV](https://github.com/WaVEV)
