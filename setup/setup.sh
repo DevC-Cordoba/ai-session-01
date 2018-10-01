@@ -11,7 +11,7 @@ conda update -n base conda -y
 conda env create --file environment.yml
 
 # Start environment
-source activate devc-cordoba-ml-ai
+source activate ai-session-01
 
 # Update environment (might break stuff. move fast‽)
 conda update --all --yes
